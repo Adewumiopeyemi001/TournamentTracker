@@ -35,13 +35,13 @@
             this.unplayedOnlyCheckbox = new System.Windows.Forms.CheckBox();
             this.matchupListBox = new System.Windows.Forms.ListBox();
             this.teamOneName = new System.Windows.Forms.Label();
-            this.teamOneScoreLabel = new System.Windows.Forms.Label();
             this.teamOneScoreValue = new System.Windows.Forms.TextBox();
             this.teamTwoScoreValue = new System.Windows.Forms.TextBox();
             this.teamTwoScoreLabel = new System.Windows.Forms.Label();
             this.teamTwoName = new System.Windows.Forms.Label();
             this.versusLabel = new System.Windows.Forms.Label();
             this.scoreButton = new System.Windows.Forms.Button();
+            this.teamOneScoreLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // headerLabel
@@ -122,18 +122,6 @@
             this.teamOneName.TabIndex = 6;
             this.teamOneName.Text = "<team one>";
             // 
-            // teamOneScoreLabel
-            // 
-            this.teamOneScoreLabel.AutoSize = true;
-            this.teamOneScoreLabel.Font = new System.Drawing.Font("Segoe UI", 10.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.teamOneScoreLabel.Location = new System.Drawing.Point(468, 201);
-            this.teamOneScoreLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.teamOneScoreLabel.Name = "teamOneScoreLabel";
-            this.teamOneScoreLabel.Size = new System.Drawing.Size(87, 40);
-            this.teamOneScoreLabel.TabIndex = 7;
-            this.teamOneScoreLabel.Text = "Score";
-            this.teamOneScoreLabel.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
             // teamOneScoreValue
             // 
             this.teamOneScoreValue.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -198,6 +186,18 @@
             this.scoreButton.Text = "Score";
             this.scoreButton.UseVisualStyleBackColor = true;
             // 
+            // teamOneScoreLabel
+            // 
+            this.teamOneScoreLabel.AutoSize = true;
+            this.teamOneScoreLabel.Font = new System.Drawing.Font("Segoe UI", 10.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.teamOneScoreLabel.Location = new System.Drawing.Point(468, 201);
+            this.teamOneScoreLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.teamOneScoreLabel.Name = "teamOneScoreLabel";
+            this.teamOneScoreLabel.Size = new System.Drawing.Size(87, 40);
+            this.teamOneScoreLabel.TabIndex = 7;
+            this.teamOneScoreLabel.Text = "Score";
+            this.teamOneScoreLabel.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
             // tournamentViewerForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(29F, 71F);
@@ -238,13 +238,13 @@
         private System.Windows.Forms.CheckBox unplayedOnlyCheckbox;
         private System.Windows.Forms.ListBox matchupListBox;
         private System.Windows.Forms.Label teamOneName;
-        private System.Windows.Forms.Label teamOneScoreLabel;
         private System.Windows.Forms.TextBox teamOneScoreValue;
         private System.Windows.Forms.TextBox teamTwoScoreValue;
         private System.Windows.Forms.Label teamTwoScoreLabel;
         private System.Windows.Forms.Label teamTwoName;
         private System.Windows.Forms.Label versusLabel;
         private System.Windows.Forms.Button scoreButton;
+        private System.Windows.Forms.Label teamOneScoreLabel;
     }
 }
 
