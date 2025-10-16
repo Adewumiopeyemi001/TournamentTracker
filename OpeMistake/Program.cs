@@ -18,15 +18,10 @@ namespace TrackerUI
 
             TrackerLibrary.GlobalConfig.InitializeConnections(true, true);
             //ApplicationConfiguration.Initialize();
-            //Application.Run(new CreatePrizesForm());
+            Application.Run(new CreatePrizesForm());
 
-            Application.Run(new CreateTeamForm());
+            //Application.Run(new CreateTeamForm());
 
-
-
-            //Initialize the database connection
-
-            //Application.Run(new CreatePrizesForm());
         }
     }
 }
