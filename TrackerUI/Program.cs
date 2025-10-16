@@ -19,7 +19,6 @@ namespace TrackerUI
 
             //Initialize the database connection
             
-
             Application.Run(new CreatePrizesForm());
 
             //Application.Run(new TournamentDashboardForm());
